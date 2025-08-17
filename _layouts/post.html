@@ -21,20 +21,32 @@ layout: default
     {% include sharelinks.html %}
   </div>
 
+
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
     <div style="margin:2em auto 2em auto; max-width:540px; background:rgba(255,255,255,0.92); border-radius:10px; box-shadow:0 2px 8px 0 rgba(180,170,150,0.06); padding:1.2em 1em; text-align:center;">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSesRb1FHZe7HcKAM54S5aolXgTvwkikzdsoQVDY1SYH8x8wbg/viewform?embedded=true" width="500" height="600" frameborder="0" marginheight="0" marginwidth="0" style="border-radius:8px; border:1px solid #e5e0d8;">Loading…</iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSesRb1FHZe7HcKAM54S5aolXgTvwkikzdsoQVDY1SYH8x8wbg/viewform?embedded=true"
+        width="100%" height="900"
+        style="max-width:900px; min-height:700px; margin:auto; display:block; border-radius:12px; box-shadow:0 2px 16px rgba(80,70,50,0.13); border:1px solid #e5e0d8;">
+        Loading…
+      </iframe>
     </div>
-<style>
-  .dark-mode .form-container {
-    background: #222 !important;
-  }
-  .dark-mode .form-container h3 {
-    color: #e0d8c0 !important;
-  }
-</style>
-    </div>
+    <style>
+      .post-content p {
+        margin-top: 1.1em;
+        margin-bottom: 1.1em;
+        line-height: 1.7;
+      }
+      .post-content ul, .post-content ol {
+        margin-bottom: 1.2em;
+      }
+      .dark-mode .form-container {
+        background: #222 !important;
+      }
+      .dark-mode .form-container h3 {
+        color: #e0d8c0 !important;
+      }
+    </style>
     {% include navlinks.html %}
   </div>
 
