@@ -1,5 +1,8 @@
 <hr>
 <div class="post_navi">
+  <a class="post_navi-item nav_home" href="{{ '/' | absolute_url }}" title="Home" style="margin-bottom:1em; display:inline-block; font-weight:500; color:#7a5c3a; font-size:1.08em; text-decoration:none;">
+    <span style="font-size:1.15em;">&#8962;</span> Home
+  </a>
   {%- if page.previous.url -%}
   <a class="post_navi-item nav_prev" href="{{ page.previous.url }}" title="{{ page.previous.title }}">
     <div class="post_navi-arrow">&lt;</div><div class="post_navi-label">Previous Post</div><div><span>{{ page.previous.title }}</span></div>
