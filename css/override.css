@@ -1,6 +1,152 @@
+
+body {
+  background: linear-gradient(180deg, #f9f6f3 0%, #f6f3ef 100%);
+  color: #222;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 1.18em;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+  margin: 0;
+}
+
+.site-header {
+  text-align: center;
+  margin-top: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.site-title {
+  font-size: 2.7em;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-weight: 400;
+  color: #2d1c0f;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.1em;
+}
+
+.site-subtitle {
+  font-size: 1.2em;
+  color: #a89c8a;
+  font-style: italic;
+  margin-bottom: 2em;
+}
+
+.main-content {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 2em 1em 3em 1em;
+  background: rgba(255,255,255,0.85);
+  border-radius: 8px;
+  box-shadow: 0 2px 16px 0 rgba(180,170,150,0.04);
+}
+
+.post-title {
+  font-size: 2.1em;
+  color: #3a2c1a;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 0.2em;
+}
+
+.post-meta {
+  color: #a89c8a;
+  font-size: 0.95em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.post-content {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: left;
+}
+
+.share-links {
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: #a89c8a;
+  font-size: 1em;
+  margin: 3em 0 1em 0;
+  letter-spacing: 0.02em;
+}
+
+a {
+  color: #7a5c3a;
+  text-decoration: none;
+  border-bottom: 1px dotted #cbbfae;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+a:hover {
+  border-bottom: 1px solid #7a5c3a;
+  color: #3a2c1a;
+}
+
 hr {
-  margin-top: 30px;
-  margin-bottom: 20px;
+  border: none;
+  border-top: 1px solid #e0d7c6;
+  margin: 2.5em 0;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-weight: 400;
+  color: #3a2c1a;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+}
+
+a {
+  color: #7a5c3a;
+  text-decoration: none;
+  border-bottom: 1px dotted #cbbfae;
+  transition: border-bottom 0.2s;
+}
+a:hover {
+  border-bottom: 1px solid #7a5c3a;
+}
+
+.post-header {
+  margin-bottom: 2em;
+}
+
+.post-title {
+  font-size: 2.2em;
+  color: #3a2c1a;
+  letter-spacing: 0.03em;
+}
+
+.post-meta {
+  color: #a89c8a;
+  font-size: 0.95em;
+}
+
+.post-content {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.share-links {
+  margin-bottom: 1.5em;
+}
+
+/* Subtle fade for navigation arrows */
+.post_navi-arrow {
+  opacity: 0.18 !important;
+  font-size: 2.5em;
+}
+
+/* Keep post navigation minimal */
+.post_navi-label {
+  font-size: 0.85em;
+  opacity: 0.5;
+  font-style: italic;
 }
 
 /* Post navigation links */

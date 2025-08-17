@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {%- seo -%}
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    {%- feed_meta -%}
+  </head>
+  <body>
+    <!-- site-header removed for minimal home page, title shown only in index.md -->
+
+    <main class="page-content">
+      <div class="wrapper">
+        {% if page.url == '/' %}
+          {{ content }}
+        {% else %}
+          {{ content }}
+          {% if page.layout == 'default' and page.url != '/' %}
+            <!-- Default posts rendering removed for home page -->
+          {% endif %}
+        {% endif %}
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrapper">
+        <p>{{ site.title }} — {{ site.description }}</p>
+      </div>
+    </footer>
+  </body>
+</html>
