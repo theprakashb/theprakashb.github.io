@@ -61,6 +61,26 @@ date: 2025-08-17
     margin-left: 0.4em;
     vertical-align: middle;
   }
+  @media (max-width: 600px) {
+    .custom-quote {
+      font-size: 1em;
+      max-width: 98vw;
+      padding: 0.3em 0.2em 0.3em 0.2em;
+    }
+    .custom-quote .quote-author {
+      font-size: 0.85em;
+    }
+    .custom-convo {
+      font-size: 0.92em;
+      padding: 0.5em 0.5em;
+    }
+    .post-title, h1, h2, h3, h4 {
+      font-size: 1.15em !important;
+    }
+    body, p, li, span {
+      font-size: 0.98em !important;
+    }
+  }
   @media (prefers-color-scheme: dark) {
     .custom-quote, .custom-convo {
       background: #222 !important;
