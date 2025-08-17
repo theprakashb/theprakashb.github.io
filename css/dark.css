@@ -1,0 +1,33 @@
+pre, code, .highlight {
+  background: #232323 !important;
+  color: #e0e0e0 !important;
+  border-radius: 6px;
+  border: 1px solid #333;
+}
+
+pre code {
+  background: transparent !important;
+  color: #e0e0e0 !important;
+}
+body.dark-mode {
+  background: #181818;
+  color: #e0e0e0;
+}
+
+.site-footer p {
+  color: #888 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #e0e0e0;
+}
+
+a {
+  color: #8ecfff;
+}
+
+.main-content {
+  background: transparent;
+}
+
+/* Add more overrides as needed for your style */
